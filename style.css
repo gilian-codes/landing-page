@@ -1,0 +1,103 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width:  90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: rgb(253, 247, 247);
+
+    position: fixed;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: pacifico;
+    letter-spacing: 0px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+text-decoration: none;
+font-size: 20px;
+color: slategray;
+padding: 36px 10px;
+margin: 0 1px;
+font-family: poppins;
+font-weight: 500 ;
+
+}
+nav a:hover{
+    background: rgb(238, 238, 238);
+    color: slategray;
+}
+
+.banner-area{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-position:center center;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: darkblue;
+    opacity: -2;
+    z-index: -1;
+
+
+    
+}
+.banner-area h3{
+   font-size: 40px;
+    color:black ;
+    text-align: left;
+    margin: 2%;
+  
+}
+.content-area{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    background: white;
+    top: 50px    ;
+}
+.content-area h2{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing:  0px;
+
+
+
+}
+.content-area p{
+    padding: 2% 0;
+    line-height: 30px;
+    text-align:left;
+}
